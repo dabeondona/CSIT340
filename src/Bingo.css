@@ -1,0 +1,25 @@
+.Card {
+    margin-top: 0;
+    text-align: center;
+    vertical-align: center;
+}
+
+.Gamecode {
+    text-align: left;
+    text-indent: 15px;
+
+}
+
+.Bingo {
+    text-align: center;
+    text-indent: 0px;
+    padding-top: 0px; 
+}
+
+.Gamecard {
+    padding-top: 35px;
+}
+
+.SpanStyle {
+    padding-left: 5px;
+}

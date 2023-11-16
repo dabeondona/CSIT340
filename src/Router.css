@@ -1,0 +1,148 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  .Singer-first {
+    border: none;
+    background-color:  #7d3eaa;
+    color: #fff;
+    padding: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .singer-first {
+    border: 4px solid;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 3px;
+    margin-bottom: 1px;
+    border-radius: 15px;
+    background-color:  #7d3eaa;
+    text-indent: 5px;
+    text-align: left;
+    color: #fff;
+    padding: 5px;
+  }
+  
+  .Singer-second {
+    border: none;
+    background-color:  #53a053;
+    color: #fff;
+    padding: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .singer-second {
+    border: 4px solid;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 3px;
+    margin-bottom: 1px;
+    border-radius: 15px;
+    background-color:  #53a053;
+    text-indent: 5px;
+    text-align: left;
+    color: #fff;
+    padding: 5px;
+  }
+  
+  .Singer-third {
+    border: none;
+    background-color:  #3bbcc0;
+    color: #fff;
+    padding: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .singer-third {
+    border: 4px solid;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 3px;
+    margin-bottom: 1px;
+    border-radius: 15px;
+    background-color:  #3bbcc0;
+    text-indent: 5px;
+    text-align: left;
+    color: #fff;
+    padding: 5px;
+  }
+  
+  .Singer-fourth {
+    border: none;
+    background-color:  #d340bf;
+    color: #fff;
+    padding: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .singer-fourth {
+    border: 4px solid;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 3px;
+    margin-bottom: 1px;
+    border-radius: 15px;
+    background-color:  #d340bf;
+    text-indent: 5px;
+    text-align: left;
+    color: #fff;
+    padding: 5px;
+  }
+  
+  
+  .inputBox {
+    border-radius: 10px;
+    width:500px;
+    border: 1px solid #ccc;
+  }
+  
+  .ResultBox {
+    border-radius: 10px;
+    overflow-y: auto;
+    border: solid 1px #d9d9d9;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 650px;
+    height: 500px;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

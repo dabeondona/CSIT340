@@ -1,0 +1,72 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .numbers-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  
+  }
+  
+  .numbers-row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .number-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    height: 50px;
+    width: 50px;
+    border: 4px solid #000000;
+    border-radius: 0px;
+    margin: 0px;
+  }
+  
+  .grid-container {
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  
+  .grid-square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    height: 100px;
+    width: 100px;
+    border: 3px solid #000000;
+    background-color: #FFCCCB;
+    border-radius: 0px;
+  } 
+  
+  .grid-square.selected {
+    background-color: #000000;
+    color: rgb(58, 53, 53);
+  }
+  
+  .start-button {
+    font-size: 18px;
+    padding: 10px 15px;
+    background-color: #007C80;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
